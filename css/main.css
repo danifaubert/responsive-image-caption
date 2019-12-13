@@ -1,0 +1,54 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+figure {
+  position: relative;
+  display: block;
+  margin: 0;
+  background-color: #e2e2e2;
+}
+
+.figcaption {
+  position: absolute;
+  border: 2px solid #333;
+}
+
+h2 {
+  font-family: 'Denk One', sans-serif;
+}
+
+p {
+  text-align: left;
+}
+
+@media only screen and (min-width: 38em) {}
+
+.figcaption {
+  border: 2px solid #333;
+}
+
+}
