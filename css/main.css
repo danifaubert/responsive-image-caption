@@ -34,21 +34,23 @@ figure {
 
 .figcaption {
   position: absolute;
+  border-radius: 2px;
   border: 2px solid #333;
 }
 
 h2 {
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
   text-align: left;
 }
 
-@media only screen and (min-width: 38em) {}
+@media only screen and (min-width: 38em) {
 
-.figcaption {
-  border: 2px solid #333;
-}
+  .figcaption {
+    border: 2px solid #333;
+  }
 
 }
